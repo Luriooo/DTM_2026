@@ -8,3 +8,5 @@ wert
 ### Wie wurde die Methode umgesetzt 
 wert
 
+### EP.02 | Kleines Einmaleins der thematischen Kartographie | Gitterchoroplethen- und Punktrasterkarten
+
