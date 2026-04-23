@@ -1,6 +1,6 @@
 # DTM Sommersemester 2026
 ## EP.01 | Kleines Einmaleins der thematischen Kartographie | Dasymetrische Choroplethenkarte
-### Bilder
+
 <img width="1114" height="720" alt="image" src="https://github.com/user-attachments/assets/3fd16a80-414a-483b-a0ac-2756a36253d4" />
 
 ### Vor und Nachteile der Methode
