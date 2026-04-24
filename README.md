@@ -19,7 +19,7 @@ wert
 
 ### EP.04 | Punktrasterkarten auf Basis von Hexagonen
 
-<img width="1184" height="836" alt="image" src="https://github.com/user-attachments/assets/f1675bbb-36cb-4bec-84b2-6bcd4da8d0b3" />
+<img width="1183" height="835" alt="image" src="https://github.com/user-attachments/assets/73d3eeb6-cd07-4861-89f7-a423ea5ae6a0" />
 
 ### Vor und Nachteile der Methode
 wert
