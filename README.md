@@ -8,7 +8,7 @@ wert
 ### Wie wurde die Methode umgesetzt 
 wert
 
-### EP.03 | Punktrasterkarten auf Basis von Quadraten
+## EP.03 | Punktrasterkarten auf Basis von Quadraten
 
 <img width="1184" height="836" alt="image" src="https://github.com/user-attachments/assets/f1675bbb-36cb-4bec-84b2-6bcd4da8d0b3" />
 
@@ -17,7 +17,7 @@ wert
 ### Wie wurde die Methode umgesetzt 
 wert
 
-### EP.04 | Punktrasterkarten auf Basis von Hexagonen
+## EP.04 | Punktrasterkarten auf Basis von Hexagonen
 
 <img width="1183" height="835" alt="image" src="https://github.com/user-attachments/assets/73d3eeb6-cd07-4861-89f7-a423ea5ae6a0" />
 
