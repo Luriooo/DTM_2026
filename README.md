@@ -25,3 +25,11 @@ wert
 wert
 ### Wie wurde die Methode umgesetzt 
 wert
+## EP.05 | Value-By-Alpha Mapping
+
+<img width="1207" height="856" alt="image" src="https://github.com/user-attachments/assets/3f1f27cc-4a53-4d5c-b4ce-1ff36e523d74" />
+
+### Vor und Nachteile der Methode
+wert
+### Wie wurde die Methode umgesetzt 
+wert
