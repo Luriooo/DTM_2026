@@ -45,4 +45,11 @@ wert
 
 ## EP.07| Tilemaps
 
+<img width="654" height="923" alt="image" src="https://github.com/user-attachments/assets/a29adfd1-aee2-436c-bdc6-7458907de12c" />
+
+### Vor und Nachteile der Methode
+wert
+### Wie wurde die Methode umgesetzt 
+wert
+
 
