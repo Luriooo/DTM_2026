@@ -55,7 +55,7 @@ wert
 
 ## EP.08 | Animation in QGIS
 
-<img width="1681" height="718" alt="draconiden_animation" src="https://github.com/user-attachments/assets/948af903-f7ba-4c74-9964-f326ca633ae6" />
+<img width="1681" height="718" alt="draconiden_animation3" src="https://github.com/user-attachments/assets/d32d4d97-4323-4d2f-a91c-9d18d761a99c" />
 
 ### Vor und Nachteile der Methode
 wert
