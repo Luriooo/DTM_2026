@@ -53,3 +53,14 @@ wert
 wert
 
 
+## EP.08 | Animation in QGIS
+
+<img width="1681" height="718" alt="draconiden_animation" src="https://github.com/user-attachments/assets/948af903-f7ba-4c74-9964-f326ca633ae6" />
+
+### Vor und Nachteile der Methode
+wert
+### Wie wurde die Methode umgesetzt 
+wert
+
+
+
