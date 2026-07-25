@@ -60,7 +60,8 @@ wert
 
 ## EP.06| Tilemaps
 
-<img width="654" height="923" alt="image" src="https://github.com/user-attachments/assets/a29adfd1-aee2-436c-bdc6-7458907de12c" />
+<img width="659" height="923" alt="image" src="https://github.com/user-attachments/assets/eb794506-600d-4547-9261-691c08f7a077" />
+
 
 ### Vor und Nachteile der Methode
 wert
