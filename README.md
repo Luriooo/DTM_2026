@@ -4,13 +4,15 @@
 <img width="1114" height="720" alt="image" src="https://github.com/user-attachments/assets/3fd16a80-414a-483b-a0ac-2756a36253d4" />
 
 ### Vor und Nachteile der Methode
-wert
+Die absolute Bevölkerungsdichte zeigt reine Einwohnerzahlen je Verwaltungseinheit, ist aber stark von der Flächengröße abhängig und verzerrt so die realistische Bevölkerungsverteilung. Die relative Bevölkerungsdichte normiert auf die Fläche und lässt sich dadurch besser vergleichen, verteilt die Werte aber weiterhin gleichmäßig über die gesamte Fläche auch über unbewohnte Bereiche wie Wälder oder Gewässer. Die dasymetrische Methode löst diese Probleme, indem sie die Bevölkerung nur auf die tatsächlich besiedelten Gebiete verteilt. Dafür benötigt man aber spezielle Daten, die Bevölkerungsanzahl pro Verwaltungseinheit reicht dafür nicht aus.
+
 ### Wie wurde die Methode umgesetzt 
-wert
+
+Grundlage sind Bevölkerungsdaten der einzelnen Verwaltungseinheiten (Orte) Berlins. Für die absolute Karte wurden die Einwohnerzahlen direkt je Ort dargestellt. Für die relative Karte wurde die Einwohnerzahl durch die Gebietsfläche geteilt (Einwohner/km²). Als Grundlage für die dasymetrische Karte dient der Datensatz Lebensweltlich orientierte Räume (LOR) Berlins. Hier wurden die Bevölkerungszahlen nur auf die tatsächlich bewohnten Gebiete verteilt. Alle Karten nutzen einheitlichen Maßstab (1:620.000) und Farbschema für die Vergleichbarkeit.
 
 ### EP.02 | Kleines Einmaleins der thematischen Kartographie | Gitterchoroplethenkarten
 
-<img width="1310" height="920" alt="image" src="https://github.com/user-attachments/assets/f85c0c18-ef0e-4d3d-9fc1-aa00ae43200c" />
+<img width="1310" height="920" alt="image" src="https://github.com/user-attachments/assets/f85c0c18-ef0e-4d3d-9fc1-aa00ae43200c" /> 
 
 
 ### Vor und Nachteile der Methode
