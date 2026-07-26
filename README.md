@@ -80,12 +80,12 @@ wert
 
 ## EP.08 | Mesh-Daten
 
+<img width="1604" height="836" alt="Weimar_2_5D" src="https://github.com/Luriooo/DTM_2026/blob/main/kyrill_animation.gif"/>
 
 ### Vor und Nachteile der Methode
 wert
 ### Wie wurde die Methode umgesetzt 
 wert
-
 
 
 ## EP.09 | 3D-Gebäudemodelle
