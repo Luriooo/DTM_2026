@@ -4,7 +4,7 @@
 <img width="1114" height="720" alt="image" src="https://github.com/user-attachments/assets/3fd16a80-414a-483b-a0ac-2756a36253d4" />
 
 ### Vor und Nachteile der Methode
-Die absolute Bevölkerungsdichte zeigt reine Einwohnerzahlen je Verwaltungseinheit, ist aber stark von der Flächengröße abhängig und verzerrt so die realistische Bevölkerungsverteilung. Die relative Bevölkerungsdichte normiert auf die Fläche und lässt sich dadurch besser vergleichen, verteilt die Werte aber weiterhin gleichmäßig über die gesamte Fläche auch über unbewohnte Bereiche wie Wälder oder Gewässer. Die dasymetrische Methode löst diese Probleme, indem sie die Bevölkerung nur auf die tatsächlich besiedelten Gebiete verteilt. Dafür benötigt man aber spezielle Daten, die Bevölkerungsanzahl pro Verwaltungseinheit reicht dafür nicht aus.
+Die absolute Bevölkerungsdichte zeigt reine Einwohnerzahlen je Verwaltungseinheit, ist aber stark von der Flächengröße abhängig und verzerrt so die realistische Bevölkerungsverteilung. Die relative Bevölkerungsdichte ist normiert auf die Fläche und lässt sich dadurch besser vergleichen, verteilt die Werte aber weiterhin gleichmäßig über die gesamte Fläche auch über unbewohnte Bereiche wie Wälder oder Gewässer. Die dasymetrische Methode löst diese Probleme, indem sie die Bevölkerung nur auf die tatsächlich besiedelten Gebiete verteilt. Dafür benötigt man aber spezielle Daten, die Bevölkerungsanzahl pro Verwaltungseinheit reicht dafür nicht aus.
 
 ### Wie wurde die Methode umgesetzt 
 
