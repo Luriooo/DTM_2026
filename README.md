@@ -12,7 +12,8 @@ Grundlage sind Bevölkerungsdaten der einzelnen Verwaltungseinheiten (Orte) Berl
 
 ### EP.02 | Kleines Einmaleins der thematischen Kartographie | Gitterchoroplethenkarten
 
-<img width="1310" height="920" alt="image" src="https://github.com/user-attachments/assets/f85c0c18-ef0e-4d3d-9fc1-aa00ae43200c" /> 
+<img width="1317" height="928" alt="image" src="https://github.com/user-attachments/assets/f29e71f0-2b5c-4c2f-ba5c-df85bcf13f27" />
+
 
 
 ### Vor und Nachteile der Methode
