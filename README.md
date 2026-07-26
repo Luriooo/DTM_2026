@@ -8,30 +8,26 @@ Die absolute Bevölkerungsdichte zeigt reine Einwohnerzahlen je Verwaltungseinhe
 
 ### Wie wurde die Methode umgesetzt 
 
-Grundlage sind Bevölkerungsdaten der einzelnen Verwaltungseinheiten (Orte) Berlins. Für die absolute Karte wurden die Einwohnerzahlen direkt je Ort dargestellt. Für die relative Karte wurde die Einwohnerzahl durch die Gebietsfläche geteilt (Einwohner/km²). Als Grundlage für die dasymetrische Karte dient der Datensatz Lebensweltlich orientierte Räume (LOR) Berlins. Hier wurden die Bevölkerungszahlen nur auf die tatsächlich bewohnten Gebiete verteilt. Alle Karten nutzen einheitlichen Maßstab (1:620.000) und Farbschema für die Vergleichbarkeit.
+Grundlage sind Bevölkerungsdaten der einzelnen Verwaltungseinheiten (Orte) Berlins. Für die absolute Karte wurden die Einwohnerzahlen direkt je Ort dargestellt. Für die relative Karte wurde die Einwohnerzahl durch die Gebietsfläche geteilt (Einwohner/km²). Als Grundlage für die dasymetrische Karte dient der Datensatz Lebensweltlich orientierte Räume (LOR) Berlins. Hier wurden die Bevölkerungszahlen nur auf die tatsächlich bewohnten Gebiete verteilt. Alle Karten nutzen einheitlichen Maßstab (1:620.000) und Symbologie für die Vergleichbarkeit.
 
 ### EP.02 | Kleines Einmaleins der thematischen Kartographie | Gitterchoroplethenkarten
 
 <img width="1317" height="928" alt="image" src="https://github.com/user-attachments/assets/f29e71f0-2b5c-4c2f-ba5c-df85bcf13f27" />
 
-
-
 ### Vor und Nachteile der Methode
-wert
+
+Die Gitterchoroplethenkarte unterteilt das Untersuchungsgebiet in ein regelmäßiges Raster gleich großer Zellen, statt administrative Grenzen (wie LOR oder Bezirke). Der Vorteil dabei ist das räumliche Muster unabhängig von den Verwaltungsgrenzen dargestellt werden. Der Nachteil ist, die gewählte Zellgröße beeinflusst das Ergebnis stark. Ein zu kleines Raster erzeugt viele leere Zellen und ein zu großes Raster verfälscht die räumliche Verteilung. Ein weiterer Nachteil ist das Strukturen wie Straßen oder Parks vom Raster ignoriert werden.
+
 ### Wie wurde die Methode umgesetzt 
-wert
+
+Auf Basis der Standortdaten des Berliner Baumbestands wurden alle Kirschbäume der Gattung "Prunus" gefiltert und mit einem Hexagonraster mit einer Seitenlänge von 300m verschnitten. Für jede Zelle wurde die Anzahl enthaltener Kirschbäume ermittelt.
+
 
 ## EP.03 | Punktrasterkarten 
 
 ### Punktrasterkarten auf Basis von Quadraten
 
 <img width="1315" height="927" alt="image" src="https://github.com/user-attachments/assets/b59bd294-83b5-4d80-a2e7-86b11f1739bb" />
-
-
-### Vor und Nachteile der Methode
-wert
-### Wie wurde die Methode umgesetzt 
-wert
 
 ### Punktrasterkarten auf Basis von Hexagonen
 
