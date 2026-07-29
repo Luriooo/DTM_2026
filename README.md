@@ -20,7 +20,7 @@ Die Gitterchoroplethenkarte unterteilt das Untersuchungsgebiet in ein regelmäß
 
 ### Wie wurde die Methode umgesetzt 
 
-Auf Basis der Standortdaten des Berliner Baumbestands wurden alle Kirschbäume der Gattung "Prunus" gefiltert und mit einem Hexagonraster mit einer Seitenlänge von 300m verschnitten. Für jede Zelle wurde die Anzahl enthaltener Kirschbäume ermittelt.
+Auf Basis der Standortdaten des Berliner Baumbestands wurden alle Kirschbäume der Gattung "Prunus" gefiltert und mit einem Hexagonraster mit einer Seitenlänge von 500m verschnitten. Für jede Zelle wurde die Anzahl enthaltener Kirschbäume ermittelt.
 
 
 ## EP.03 | Punktrasterkarten 
@@ -35,9 +35,15 @@ Auf Basis der Standortdaten des Berliner Baumbestands wurden alle Kirschbäume d
 
 
 ### Vor und Nachteile der Methode
-wert
+
+Bei der Punktrasterkarte wird statt der Zelle selbst nur der Zentroid jeder Gitterzelle als Kreissymbol dargestellt, dessen Größe abhängig von der Anzahl der Kirschbäume in der Zelle ist. Der Vorteil dabei ist, dass die Hintergrundkarte sichtbarer bleibt und Zellen die wenige Bäume enthalten weniger hervorgehoben werden und so der Fokus auf die Gebiete mit vielen Kirschbäumen gelenkt wird.
+Der Nachteil ist, dass sich Kreise in dicht besetzten Gebieten überlagern und dadurch Werte verdecken können. Ein weiterer Nachteil ist, dass Größenunterschiede von Kreisen schlechter eingeschätzt werden können. 
+
+Beim Vergleich der beiden Rasterformen zeigt sich zudem, dass das Hexagonraster gegenüber dem Quadratraster gleichmäßigere Nachbarschaftsbeziehungen aufweist, da alle Nachbarzellen gleich weit entfernt liegen, was zu einer ausgewogeneren Verteilung führt.
+
 ### Wie wurde die Methode umgesetzt 
-wert
+
+Auf Basis der Standortdaten des Berliner Baumbestands wurden alle Kirschbäume der Gattung "Prunus" gefiltert und mit einem (Hexagon) Raster mit einer Seitenlänge von 500m verschnitten. Für jede Zelle wurde die Anzahl enthaltener Kirschbäume ermittelt und als Punkt im Zellzentrum dargestellt, dessen Größe und Farbe proportional zur Klasseneinteilung skaliert wurden..
 
 ## EP.04 | Value-By-Alpha Mapping
 
