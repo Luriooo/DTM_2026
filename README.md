@@ -50,9 +50,12 @@ Auf Basis der Standortdaten des Berliner Baumbestands wurden alle Kirschbäume d
 <img width="1207" height="856" alt="image" src="https://github.com/user-attachments/assets/3f1f27cc-4a53-4d5c-b4ce-1ff36e523d74" />
 
 ### Vor und Nachteile der Methode
-wert
+
+Bei der Value-By-Alpha-Karte wird ein Farbwert genutzt, um eine Variable darzustellen, während die Transparenz(Alpha Wert) zusätzlich eine zweite Variable darstellt. Der Vorteil ist, dass Kreise mit geringen Gewicht (z.B. wenig Einwohner) transparenter und somit weniger auffällig dargestellt werden. Der Nachteil ist, dass stark transparente Zellen schwerer abzulesen sind und dass die zusätzliche Alpha-Information in der Legende nicht abgebildet werden.
+
 ### Wie wurde die Methode umgesetzt 
-wert
+
+
 
 ## EP.05| Ursprung-Ziel-Karten
 
