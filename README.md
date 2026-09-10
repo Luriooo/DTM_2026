@@ -47,7 +47,8 @@ Auf Basis der Standortdaten des Berliner Baumbestands wurden alle Kirschbäume d
 
 ## EP.04 | Value-By-Alpha Mapping
 
-<img width="1207" height="856" alt="image" src="https://github.com/user-attachments/assets/3f1f27cc-4a53-4d5c-b4ce-1ff36e523d74" />
+<img width="1313" height="925" alt="image" src="https://github.com/user-attachments/assets/0e9f393c-5dec-4d0c-9551-fa8b94a8d4c5" />
+
 
 ### Vor und Nachteile der Methode
 
