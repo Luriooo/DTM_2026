@@ -56,7 +56,7 @@ Bei der Value-By-Alpha-Karte wird ein Farbwert genutzt, um eine Variable darzust
 
 ### Wie wurde die Methode umgesetzt 
 
-Auf Basis der ungarischen Wahlkreisgeometrien wurden die Stimmenanteile von Fidesz und Tisza je Kreis über einen Attribute-Join eingebunden und zunächst als zwei separate Choroplethenkarten mit den jeweiligen prozentualen Stimmenanteilen dargestellt. Für die Value-by-Alpha-Map erhielt jeder Kreis die Farbe der siegreichen Partei, wobei der Stimmenvorsprung als Gewichtungsvariable dient. Der Alpha-Wert wurde datenbasiert zugewiesen. Je höher der Vorsprung, umso niedriger der Alpha-Wert, sodass Kreise mit knappem Ergebnis blasser und Kreise mit deutlichem Wahlsieg kräftiger erscheinen. Alle drei Darstellungen wurden abschließend in einem gemeinsamen Layout zusammengeführt.
+Auf Basis der ungarischen Wahlkreise wurden die Stimmenanteile von Fidesz und Tisza je Kreis über einen Attribute-Join eingebunden und zunächst als zwei separate Choroplethenkarten mit den jeweiligen prozentualen Stimmenanteilen dargestellt. Für die Value-by-Alpha-Map erhielt jeder Kreis die Farbe der siegreichen Partei, wobei der Stimmenvorsprung als Gewichtungsvariable dient. Der Alpha-Wert wurde datenbasiert zugewiesen. Je höher der Vorsprung, umso niedriger der Alpha-Wert, sodass Kreise mit knappem Ergebnis blasser und Kreise mit deutlichem Wahlsieg kräftiger erscheinen. Alle drei Darstellungen wurden abschließend in einem gemeinsamen Layout zusammengeführt.
 
 ## EP.05| Ursprung-Ziel-Karten
 
