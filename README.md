@@ -76,9 +76,12 @@ Grundlage der Karte war eine CSV mit den Herkunftsländern der Incoming-Studiere
 
 
 ### Vor und Nachteile der Methode
-wert
+Tilemaps, ähnlich wie Gitterchoroplethenkarten unterteilen das Untersuchungsgebiet in ein regelmäßiges Raster gleich großer Zellen. Die Topografie des Geländes wird dadurch stark vereinfacht, aber übersichtlicher dargestellt. 
+Der Nachteil diese Darstellung ist das durch das Reduzieren des Informationsgehalts die Lagegenauigkeit verloren geht. Außerdem lassen sich durch die Kacheln und einteilen in 5 Klassen keine Details im Relief des Untersuchungsgebiets erkennen.
+
 ### Wie wurde die Methode umgesetzt 
-wert
+Grundlage der Karte war ein digitales Höhenmodell (DEM) von Deutschland, aus dem die Höhenwerte abgeleitet wurden. Um die Werte auf ein reguläres Kachelraster zu übertragen, wurde zunächst ein Gitter erstellt, dass das Untersuchungsgebiet in einzelne, gleich große Zellen unterteilt. Für jede dieser Zellen wurde anschließend der mittlere Höhenwert aus dem DEM-Raster berechnet und der jeweiligen Zelle als Wert zugewiesen.
+Die berechneten Werte wurden in 5 Klassen eingeteilt und mit einer Farbskala von Grün bis Orange und in Klemmbaustein Optik dargestellt.
 
 
 ## EP.07 | Animation in QGIS
