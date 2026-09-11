@@ -63,9 +63,12 @@ Auf Basis der ungarischen Wahlkreise wurden die Stimmenanteile von Fidesz und Ti
 <img width="904" height="905" alt="image" src="https://github.com/user-attachments/assets/f46d0fd3-f563-495c-8497-e26e8484dece" />
 
 ### Vor und Nachteile der Methode
-wert
+Flowmaps eignen sich besonders gut, um Bewegungen von Personen oder Objekten darzustellen. da sowohl die Richtung als auch die Anzahl durch Linienstärke und Punktgröße dargestellt werden können. Die gewählte Orthografische Projektion eignet sich dafür besonders gut, da sie die Erde als Globus darstellt und dadurch räumlichen Bewegungen leicht erkennbar macht.
+Die Nachteile von dieser Kartendarstellung sind dabei, dass alle Linien auf einen gemeinsamen Zielpunkt zulaufen. Dadurch überlagern sich die einzelnen Pfeile, die gerade die Nachbarstaaten verdecken, wodurch die tatsächliche Anzahl der Verbindungen nicht gut abgelesen werden kann. Zudem verzerrt die Projektion Flächen und Distanzen an den Rändern.
+
 ### Wie wurde die Methode umgesetzt 
-wert
+
+Grundlage der Karte war eine CSV mit den Herkunftsländern der Incoming-Studierenden sowie der Studierendenanzahl die vom Referat Internationale Angelegenheiten entnommen wurde. Die Linien wurden mit dem Tool "YX to Line" aus dem Shape Tools Plugin erstellt, sodass jede Ursprungskoordinate durch eine Gerade mit dem Standort der BHT verbunden wurde.
 
 ## EP.06| Tilemaps
 
