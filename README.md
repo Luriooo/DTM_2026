@@ -89,9 +89,12 @@ Die berechneten Werte wurden in 5 Klassen eingeteilt und mit einer Farbskala von
 <img width="1681" height="718" alt="draconiden_animation3" src="https://github.com/user-attachments/assets/d32d4d97-4323-4d2f-a91c-9d18d761a99c" />
 
 ### Vor und Nachteile der Methode
-wert
+Die Animation von Karten bietet den Vorteil, dass sie zeitliche Prozesse, hier den Verlauf des Meteorschauers der Draconiden sichtbar macht, was mit einer statischen Karte kaum möglich ist.
+Einige Nachteile sind z.b. das frühere und spätere Zustände nicht direkt miteinander vergleichbar sind da nur der aktuelle Zeitausschnitt sichtbar ist, wodurch Muster über den gesamten Zeitraum schwerer erkennbar sind.
+Die Wiedergabegeschwindigkeit beeinflusst außerdem das Gesamtbild z.B. gehen bei zu hoher Geschwindigkeit gehen Details verloren
+
 ### Wie wurde die Methode umgesetzt 
-wert
+Grundlage war ein Punktlayer mit den einzelnen Meteorereignissen der Draconiden 2023, dem für jedes Objekt ein Timestamp des Beobachtungszeitpunkts zugeordnet war. Mithilfe des Temporal Controllers wurde anschließend ein minutengenaues Zeitintervall definiert.
 
 ## EP.08 | Mesh-Daten
 
