@@ -43,7 +43,7 @@ Beim Vergleich der beiden Rasterformen zeigt sich zudem, dass das Hexagonraster 
 
 ### Wie wurde die Methode umgesetzt 
 
-Auf Basis der Standortdaten des Berliner Baumbestands wurden alle Kirschbäume der Gattung "Prunus" gefiltert und mit einem (Hexagon) Raster mit einer Seitenlänge von 500m verschnitten. Für jede Zelle wurde die Anzahl enthaltener Kirschbäume ermittelt und als Punkt im Zellzentrum dargestellt, dessen Größe und Farbe proportional zur Klasseneinteilung skaliert wurden..
+Auf Basis der Standortdaten des Berliner Baumbestands wurden alle Kirschbäume der Gattung "Prunus" gefiltert und mit einem (Hexagon) Raster mit einer Seitenlänge von 500m verschnitten. Für jede Zelle wurde die Anzahl enthaltener Kirschbäume ermittelt und als Punkt im Zellzentrum dargestellt, dessen Größe und Farbe proportional zur Klasseneinteilung skaliert wurden.
 
 ## EP.04 | Value-By-Alpha Mapping
 
@@ -91,19 +91,23 @@ Die berechneten Werte wurden in 5 Klassen eingeteilt und mit einer Farbskala von
 ### Vor und Nachteile der Methode
 Die Animation von Karten bietet den Vorteil, dass sie zeitliche Prozesse, hier den Verlauf des Meteorschauers der Draconiden sichtbar macht, was mit einer statischen Karte kaum möglich ist.
 Einige Nachteile sind z.b. das frühere und spätere Zustände nicht direkt miteinander vergleichbar sind da nur der aktuelle Zeitausschnitt sichtbar ist, wodurch Muster über den gesamten Zeitraum schwerer erkennbar sind.
-Die Wiedergabegeschwindigkeit beeinflusst außerdem das Gesamtbild z.B. gehen bei zu hoher Geschwindigkeit gehen Details verloren
+Die Wiedergabegeschwindigkeit beeinflusst außerdem das Gesamtbild z.B. gehen bei zu hoher Geschwindigkeit gehen Details verloren.
 
 ### Wie wurde die Methode umgesetzt 
-Grundlage war ein Punktlayer mit den einzelnen Meteorereignissen der Draconiden 2023, dem für jedes Objekt ein Timestamp des Beobachtungszeitpunkts zugeordnet war. Mithilfe des Temporal Controllers wurde anschließend ein minutengenaues Zeitintervall definiert.
+Grundlage war ein Punktlayer mit den einzelnen Meteorereignissen der Draconiden 2023, dem für jedes Objekt ein Timestamp des Beobachtungszeitpunkts zugeordnet war. Mithilfe des Temporal Controllers wurde anschließend ein minutengenaues Zeitintervall definiert. Außerdem wurde ein Titel, Timestamp und ein Impressum erstellt. Nach dem export wurden die einzelnen Bilder als Gif zusammengefügt.
 
 ## EP.08 | Mesh-Daten
 
 <img width="1604" height="836" alt="Weimar_2_5D" src="https://github.com/Luriooo/DTM_2026/blob/main/kyrill_animation.gif"/>
 
 ### Vor und Nachteile der Methode
-wert
+
+Mesh-Daten ermöglichen die Darstellung räumlich zusammenhängender und zeitlich veränderlicher Größen wie in diesem Fall Windfelder. Die Strömungslinien visualisieren den Verlauf des Windfelds und lassen die Zugbahn und die Rotation des Orkans erkennen. Die Animation zeigt zusätzlich die zeitliche Entwicklung. So entsteht ein grober Überblick über die Entwicklung der Windlage.
+Die Nachteile der gewählten Darstellung sind unter anderem das genauere Geschwindigkeiten sich nicht ohne Legende ablesen lassen und die hohe Auflösung(0,25x0,25) senkt den Detailgrad zusätzlich. Durch die große Datenmenge musste die Auflösung und das Zeitfenster außerdem stark reduziert werden.
+
 ### Wie wurde die Methode umgesetzt 
-wert
+
+Grundlage der Animation war ein GRIB-Datensatz des Orkan Kyrill (2007) aus dem ERA5-Datensatz des Copernicus Climate Change Service. Die Windfelder wurden als Strömungslinien visualisiert und mit der ESRI-Satellit Hintergrundkarte all Group Layer gerendert. Dabei wurde die Symbologie so gestaltet das es an das Gemälde Sternennacht von Vincent van Gogh erinnert. Mithilfe des Temporal Controllers wurde anschließend ein stundengenaues Zeitintervall definiert. Außerdem wurde ein Titel, Timestamp und ein Impressum erstellt. Nach dem Export wurden die einzelnen Bilder als Gif zusammengefügt.
 
 
 ## EP.09 | 3D-Gebäudemodelle
