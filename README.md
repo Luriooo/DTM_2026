@@ -3,10 +3,10 @@
 
 <img width="1114" height="720" alt="image" src="https://github.com/user-attachments/assets/3fd16a80-414a-483b-a0ac-2756a36253d4" />
 
-### Vor und Nachteile der Methode
+### Vor- und Nachteile der Methode
 Die absolute Bevölkerungsdichte zeigt reine Einwohnerzahlen je Verwaltungseinheit, ist aber stark von der Flächengröße abhängig und verzerrt so die realistische Bevölkerungsverteilung. Die relative Bevölkerungsdichte ist normiert auf die Fläche und lässt sich dadurch besser vergleichen, verteilt die Werte aber weiterhin gleichmäßig über die gesamte Fläche auch über unbewohnte Bereiche wie Wälder oder Gewässer. Die dasymetrische Methode löst diese Probleme, indem sie die Bevölkerung nur auf die tatsächlich besiedelten Gebiete verteilt. Dafür benötigt man aber spezielle Daten, die Bevölkerungsanzahl pro Verwaltungseinheit reicht dafür nicht aus.
 
-### Wie wurde die Methode umgesetzt 
+### Umsetzung der Methode
 
 Grundlage sind Bevölkerungsdaten der einzelnen Verwaltungseinheiten (Orte) Berlins. Für die absolute Karte wurden die Einwohnerzahlen direkt je Ort dargestellt. Für die relative Karte wurde die Einwohnerzahl durch die Gebietsfläche geteilt (Einwohner/km²). Als Grundlage für die dasymetrische Karte dient der Datensatz Lebensweltlich orientierte Räume (LOR) Berlins. Hier wurden die Bevölkerungszahlen nur auf die tatsächlich bewohnten Gebiete verteilt. Alle Karten nutzen einheitlichen Maßstab (1:620.000) und Symbologie für die Vergleichbarkeit.
 
@@ -14,11 +14,11 @@ Grundlage sind Bevölkerungsdaten der einzelnen Verwaltungseinheiten (Orte) Berl
 
 <img width="1317" height="928" alt="image" src="https://github.com/user-attachments/assets/f29e71f0-2b5c-4c2f-ba5c-df85bcf13f27" />
 
-### Vor und Nachteile der Methode
+### Vor- und Nachteile der Methode
 
 Die Gitterchoroplethenkarte unterteilt das Untersuchungsgebiet in ein regelmäßiges Raster gleich großer Zellen, statt administrative Grenzen (wie LOR oder Bezirke). Der Vorteil dabei ist das räumliche Muster unabhängig von den Verwaltungsgrenzen dargestellt werden. Der Nachteil ist, die gewählte Zellgröße beeinflusst das Ergebnis stark. Ein zu kleines Raster erzeugt viele leere Zellen und ein zu großes Raster verfälscht die räumliche Verteilung. Ein weiterer Nachteil ist das Strukturen wie Straßen oder Parks vom Raster ignoriert werden.
 
-### Wie wurde die Methode umgesetzt 
+### Umsetzung der Methode
 
 Auf Basis der Standortdaten des Berliner Baumbestands wurden alle Kirschbäume der Gattung "Prunus" gefiltert und mit einem Hexagonraster mit einer Seitenlänge von 500m verschnitten. Für jede Zelle wurde die Anzahl enthaltener Kirschbäume ermittelt.
 
@@ -34,14 +34,14 @@ Auf Basis der Standortdaten des Berliner Baumbestands wurden alle Kirschbäume d
 <img width="1311" height="921" alt="image" src="https://github.com/user-attachments/assets/7e754017-fa69-4ff7-a502-8d73ba0f7e2e" />
 
 
-### Vor und Nachteile der Methode
+### Vor- und Nachteile der Methode
 
 Bei der Punktrasterkarte wird statt der Zelle selbst nur der Zentroid jeder Gitterzelle als Kreissymbol dargestellt, dessen Größe abhängig von der Anzahl der Kirschbäume in der Zelle ist. Der Vorteil dabei ist, dass die Hintergrundkarte sichtbarer bleibt und Zellen die wenige Bäume enthalten weniger hervorgehoben werden und so der Fokus auf die Gebiete mit vielen Kirschbäumen gelenkt wird.
 Der Nachteil ist, dass sich Kreise in dicht besetzten Gebieten überlagern und dadurch Werte verdecken können. Ein weiterer Nachteil ist, dass Größenunterschiede von Kreisen schlechter eingeschätzt werden können. 
 
 Beim Vergleich der beiden Rasterformen zeigt sich zudem, dass das Hexagonraster gegenüber dem Quadratraster gleichmäßigere Nachbarschaftsbeziehungen aufweist, da alle Nachbarzellen gleich weit entfernt liegen, was zu einer ausgewogeneren Verteilung führt.
 
-### Wie wurde die Methode umgesetzt 
+### Umsetzung der Methode
 
 Auf Basis der Standortdaten des Berliner Baumbestands wurden alle Kirschbäume der Gattung "Prunus" gefiltert und mit einem (Hexagon) Raster mit einer Seitenlänge von 500m verschnitten. Für jede Zelle wurde die Anzahl enthaltener Kirschbäume ermittelt und als Punkt im Zellzentrum dargestellt, dessen Größe und Farbe proportional zur Klasseneinteilung skaliert wurden.
 
@@ -50,11 +50,11 @@ Auf Basis der Standortdaten des Berliner Baumbestands wurden alle Kirschbäume d
 <img width="1313" height="925" alt="image" src="https://github.com/user-attachments/assets/0e9f393c-5dec-4d0c-9551-fa8b94a8d4c5" />
 
 
-### Vor und Nachteile der Methode
+### Vor- und Nachteile der Methode
 
 Bei der Value-By-Alpha-Karte wird ein Farbwert genutzt, um eine Variable darzustellen, während die Transparenz(Alpha Wert) zusätzlich eine zweite Variable darstellt. Der Vorteil ist, dass Kreise mit geringen Gewicht (z.B. wenig Einwohner) transparenter und somit weniger auffällig dargestellt werden. Der Nachteil ist, dass stark transparente Zellen schwerer abzulesen sind und dass die zusätzliche Alpha-Information in der Legende nicht abgebildet werden.
 
-### Wie wurde die Methode umgesetzt 
+### Umsetzung der Methode
 
 Auf Basis der ungarischen Wahlkreise wurden die Stimmenanteile von Fidesz und Tisza je Kreis über einen Attribute-Join eingebunden und zunächst als zwei separate Choroplethenkarten mit den jeweiligen prozentualen Stimmenanteilen dargestellt. Für die Value-by-Alpha-Map erhielt jeder Kreis die Farbe der siegreichen Partei, wobei der Stimmenvorsprung als Gewichtungsvariable dient. Der Alpha-Wert wurde datenbasiert zugewiesen. Je höher der Vorsprung, umso niedriger der Alpha-Wert, sodass Kreise mit knappem Ergebnis blasser und Kreise mit deutlichem Wahlsieg kräftiger erscheinen. Alle drei Darstellungen wurden abschließend in einem gemeinsamen Layout zusammengeführt.
 
@@ -62,11 +62,11 @@ Auf Basis der ungarischen Wahlkreise wurden die Stimmenanteile von Fidesz und Ti
 
 <img width="904" height="905" alt="image" src="https://github.com/user-attachments/assets/f46d0fd3-f563-495c-8497-e26e8484dece" />
 
-### Vor und Nachteile der Methode
+### Vor- und Nachteile der Methode
 Flowmaps eignen sich besonders gut, um Bewegungen von Personen oder Objekten darzustellen. da sowohl die Richtung als auch die Anzahl durch Linienstärke und Punktgröße dargestellt werden können. Die gewählte Orthografische Projektion eignet sich dafür besonders gut, da sie die Erde als Globus darstellt und dadurch räumlichen Bewegungen leicht erkennbar macht.
 Die Nachteile von dieser Kartendarstellung sind dabei, dass alle Linien auf einen gemeinsamen Zielpunkt zulaufen. Dadurch überlagern sich die einzelnen Pfeile, die gerade die Nachbarstaaten verdecken, wodurch die tatsächliche Anzahl der Verbindungen nicht gut abgelesen werden kann. Zudem verzerrt die Projektion Flächen und Distanzen an den Rändern.
 
-### Wie wurde die Methode umgesetzt 
+### Umsetzung der Methode
 
 Grundlage der Karte war eine CSV mit den Herkunftsländern der Incoming-Studierenden sowie der Studierendenanzahl die vom Referat Internationale Angelegenheiten entnommen wurde. Die Linien wurden mit dem Tool "YX to Line" aus dem Shape Tools Plugin erstellt, sodass jede Ursprungskoordinate durch eine Gerade mit dem Standort der BHT verbunden wurde.
 
@@ -75,11 +75,11 @@ Grundlage der Karte war eine CSV mit den Herkunftsländern der Incoming-Studiere
 <img width="659" height="923" alt="image" src="https://github.com/user-attachments/assets/eb794506-600d-4547-9261-691c08f7a077" />
 
 
-### Vor und Nachteile der Methode
+### Vor- und Nachteile der Methode
 Tilemaps, ähnlich wie Gitterchoroplethenkarten unterteilen das Untersuchungsgebiet in ein regelmäßiges Raster gleich großer Zellen. Die Topografie des Geländes wird dadurch stark vereinfacht, aber übersichtlicher dargestellt. 
 Der Nachteil diese Darstellung ist das durch das Reduzieren des Informationsgehalts die Lagegenauigkeit verloren geht. Außerdem lassen sich durch die Kacheln und einteilen in 5 Klassen keine Details im Relief des Untersuchungsgebiets erkennen.
 
-### Wie wurde die Methode umgesetzt 
+### Umsetzung der Methode
 Grundlage der Karte war ein digitales Höhenmodell (DEM) von Deutschland, aus dem die Höhenwerte abgeleitet wurden. Um die Werte auf ein reguläres Kachelraster zu übertragen, wurde zunächst ein Gitter erstellt, dass das Untersuchungsgebiet in einzelne, gleich große Zellen unterteilt. Für jede dieser Zellen wurde anschließend der mittlere Höhenwert aus dem DEM-Raster berechnet und der jeweiligen Zelle als Wert zugewiesen.
 Die berechneten Werte wurden in 5 Klassen eingeteilt und mit einer Farbskala von Grün bis Orange und in Klemmbaustein Optik dargestellt.
 
@@ -88,46 +88,44 @@ Die berechneten Werte wurden in 5 Klassen eingeteilt und mit einer Farbskala von
 
 <img width="1681" height="718" alt="draconiden_animation3" src="https://github.com/user-attachments/assets/d32d4d97-4323-4d2f-a91c-9d18d761a99c" />
 
-### Vor und Nachteile der Methode
+### Vor- und Nachteile der Methode
 Die Animation von Karten bietet den Vorteil, dass sie zeitliche Prozesse, hier den Verlauf des Meteorschauers der Draconiden sichtbar macht, was mit einer statischen Karte kaum möglich ist.
 Einige Nachteile sind z.b. das frühere und spätere Zustände nicht direkt miteinander vergleichbar sind da nur der aktuelle Zeitausschnitt sichtbar ist, wodurch Muster über den gesamten Zeitraum schwerer erkennbar sind.
 Die Wiedergabegeschwindigkeit beeinflusst außerdem das Gesamtbild z.B. gehen bei zu hoher Geschwindigkeit gehen Details verloren.
 
-### Wie wurde die Methode umgesetzt 
+### Umsetzung der Methode
 Grundlage war ein Punktlayer mit den einzelnen Meteorereignissen der Draconiden 2023, dem für jedes Objekt ein Timestamp des Beobachtungszeitpunkts zugeordnet war. Mithilfe des Temporal Controllers wurde anschließend ein minutengenaues Zeitintervall definiert. Außerdem wurde ein Titel, Timestamp und ein Impressum erstellt. Nach dem export wurden die einzelnen Bilder als Gif zusammengefügt.
 
 ## EP.08 | Mesh-Daten
 
 <img width="1604" height="836" alt="Weimar_2_5D" src="https://github.com/Luriooo/DTM_2026/blob/main/kyrill_animation.gif"/>
 
-### Vor und Nachteile der Methode
+### Vor- und Nachteile der Methode
 
 Mesh-Daten ermöglichen die Darstellung räumlich zusammenhängender und zeitlich veränderlicher Größen wie in diesem Fall Windfelder. Die Strömungslinien visualisieren den Verlauf des Windfelds und lassen die Zugbahn und die Rotation des Orkans erkennen. Die Animation zeigt zusätzlich die zeitliche Entwicklung. So entsteht ein grober Überblick über die Entwicklung der Windlage.
 Die Nachteile der gewählten Darstellung sind unter anderem das genauere Geschwindigkeiten sich nicht ohne Legende ablesen lassen und die hohe Auflösung(0,25x0,25) senkt den Detailgrad zusätzlich. Durch die große Datenmenge musste die Auflösung und das Zeitfenster außerdem stark reduziert werden.
 
-### Wie wurde die Methode umgesetzt 
+### Umsetzung der Methode
 
 Grundlage der Animation war ein GRIB-Datensatz des Orkan Kyrill (2007) aus dem ERA5-Datensatz des Copernicus Climate Change Service. Die Windfelder wurden als Strömungslinien visualisiert und mit der ESRI-Satellit Hintergrundkarte als Group Layer gerendert. Dabei wurde die Symbologie so gestaltet das es an das Gemälde Sternennacht von Vincent van Gogh erinnert. Mithilfe des Temporal Controllers wurde anschließend ein stundengenaues Zeitintervall definiert. Außerdem wurde ein Titel, Timestamp und ein Impressum erstellt. Nach dem Export wurden die einzelnen Bilder als Gif zusammengefügt.
 
 
 ## EP.09 | 3D-Gebäudemodelle
 
-### EP.09.1 | 2.5D Weimar
-
+### 2.5D Weimar
 <img width="1604" height="836" alt="Weimar_2_5D" src="https://github.com/user-attachments/assets/c06c4c80-d019-41af-80b6-f82d84168e6d" />
 
-### Vor und Nachteile der Methode
-wert
-### Wie wurde die Methode umgesetzt 
-wert
-
-
-### EP.09.2 | 3D Dresden
+### 3D Dresden
 
 <img width="1920" height="978" alt="Dresden_3D" src="https://github.com/user-attachments/assets/4718d7ff-982c-4e20-9b28-6dfec50818b3" />
 
-### Vor und Nachteile der Methode
-wert
-### Wie wurde die Methode umgesetzt 
-wert
+### Vor- und Nachteile der Methode
 
+2,5D Darstellungen von Gebäuden bieten den Vorteil, dass mit relativ geringem Rechenaufwand Gebäudehöhen und Bebauungsstruktur von urbanen Gebieten erzeugt werden kann, da lediglich die Gebäudehöhe anhand eines Höhenattributs dargestellt wird. Der Nachteil liegt jedoch darin, dass die echte Dachform nicht abgebildet wird. Alle Gebäude erscheinen als Flachdach, wodurch ein verzerrter, unrealistischer Eindruck entsteht.
+Dieses Problem lösen 3D Darstellungen, weil hier nicht nur eine einzelne Höhe, sondern die vollständige Dachgeometrie jedes Gebäudes vorliegt damit lässt sich die reale Bebauung deutlich realistischer abbilden. Der Nachteil dabei ist aber eine deutlich höherer Rechenaufwand.
+
+### Umsetzung der Methode
+
+Die benötigten LOD2 Datensätze stammen aus dem Geoportal von [Sachsen](https://www.geodaten.sachsen.de/) und [Thüringen](https://tlbg.thueringen.de/geobasisdaten/3d-informationen/3d-gebaeudemodelle).
+Zur Umsetzung der 2,5D Ansicht wurde ein LOD2 Datensatz von Weimar mit Grundriss Geometrien und Höhenattribut in QGIS geladen. Über die Symbologie-Einstellungen wurde der Layer auf 2,5D umgestellt und das Feld mit den Höhenattributen zum Darstellen der Gebäudehöhe gesetzt.
+Zur Umsetzung der 3D Ansicht wurde ebenfalls ein LOD2 Datensatz von Dresden verwendet. Dieser wurde dann in den 3D-Layereinstellungen regelbasiert gestyled, sodass Hauswände und Dächer sich farblich unterscheiden. Anschließend wurde der Ausschnitt über den 3DViewer exportiert.
