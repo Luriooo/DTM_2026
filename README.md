@@ -107,7 +107,7 @@ Die Nachteile der gewählten Darstellung sind unter anderem das genauere Geschwi
 
 ### Wie wurde die Methode umgesetzt 
 
-Grundlage der Animation war ein GRIB-Datensatz des Orkan Kyrill (2007) aus dem ERA5-Datensatz des Copernicus Climate Change Service. Die Windfelder wurden als Strömungslinien visualisiert und mit der ESRI-Satellit Hintergrundkarte all Group Layer gerendert. Dabei wurde die Symbologie so gestaltet das es an das Gemälde Sternennacht von Vincent van Gogh erinnert. Mithilfe des Temporal Controllers wurde anschließend ein stundengenaues Zeitintervall definiert. Außerdem wurde ein Titel, Timestamp und ein Impressum erstellt. Nach dem Export wurden die einzelnen Bilder als Gif zusammengefügt.
+Grundlage der Animation war ein GRIB-Datensatz des Orkan Kyrill (2007) aus dem ERA5-Datensatz des Copernicus Climate Change Service. Die Windfelder wurden als Strömungslinien visualisiert und mit der ESRI-Satellit Hintergrundkarte als Group Layer gerendert. Dabei wurde die Symbologie so gestaltet das es an das Gemälde Sternennacht von Vincent van Gogh erinnert. Mithilfe des Temporal Controllers wurde anschließend ein stundengenaues Zeitintervall definiert. Außerdem wurde ein Titel, Timestamp und ein Impressum erstellt. Nach dem Export wurden die einzelnen Bilder als Gif zusammengefügt.
 
 
 ## EP.09 | 3D-Gebäudemodelle
